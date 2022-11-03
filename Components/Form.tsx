@@ -1,6 +1,6 @@
 import { doc, setDoc } from "firebase/firestore";
 import { Formik } from "formik";
-import { FC, useState } from "react";
+import React, { useState } from "react";
 import * as Yup from "yup";
 import { db } from "../firebase/client";
 import { v4 as uuidv4 } from "uuid";
@@ -23,7 +23,7 @@ const FormSchema = Yup.object().shape({
         .matches(/^[0-9]{6}$/, "Please enter your valid Caldwell Student ID"),
 });
 
-const Form: FC = () => {
+const Form: React.FC = () => {
     const [submitted, setSubmitted] = useState<boolean>(false);
     if (!submitted) {
         return (
