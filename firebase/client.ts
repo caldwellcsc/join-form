@@ -4,7 +4,7 @@ import "firebase/auth";
 import "firebase/firestore";
 import { getFirestore } from "firebase/firestore";
 
-export const clientCredentials: firebase.FirebaseOptions = {
+const clientCredentials: firebase.FirebaseOptions = {
     apiKey: process.env.NEXT_PUBLIC_API_KEY,
     authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
     projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
