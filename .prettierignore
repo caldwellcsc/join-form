@@ -1,4 +1,6 @@
 # Ignore artifacts:
 package-lock.json
+yarn.lock
+yarn-*.json
 build
 coverage

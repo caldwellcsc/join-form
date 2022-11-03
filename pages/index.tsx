@@ -1,17 +1,8 @@
 import Head from "next/head";
+import React from "react";
 import Form from "../Components/Form";
 
-export default function Home() {
-    // const [students, studentLoading, studentErr] = useCollection(
-    //   collection(db, "students")
-    // );
-
-    // if (!studentLoading && students) {
-    //   students.docs.forEach(student => {
-    //     console.log(student.data());
-    //   });
-    // }
-
+const Home: React.FC = () => {
     return (
         <div>
             <Head>
@@ -27,4 +18,6 @@ export default function Home() {
             </div>
         </div>
     );
-}
+};
+
+export default Home;

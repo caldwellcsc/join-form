@@ -54,7 +54,6 @@ const Form: FC = () => {
                             handleBlur,
                             handleSubmit,
                             isSubmitting,
-                            /* and other goodies */
                         }) => (
                             <form
                                 onSubmit={handleSubmit}
