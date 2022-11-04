@@ -40,7 +40,7 @@ const Home: React.FC = () => {
 
                 <meta name="robots" content="index, follow" />
 
-                <link rel="icon" href="/favicon.png" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className="bg-gradient-to-r from-rose-100 to-teal-100 min-h-screen">
                 <Form />
